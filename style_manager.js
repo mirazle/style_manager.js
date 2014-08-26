@@ -1,11 +1,11 @@
 $(function() {
 
-    var inner_css_no = 1;
-
     var map = {};
 
     // Define Base Function
     var style_manager = new Function;
+
+    var inner_css_no = 1;
 
     function get_file_name(styles_num) {
 

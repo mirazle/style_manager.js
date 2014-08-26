@@ -77,7 +77,7 @@ $.sm
                 margin-right: "3px"
                 margin-top: "3px"
 
-    _jQuery_example: Object
+    jQuery_example: Object
     _style1: Object
         all: Object
             body: Object

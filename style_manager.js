@@ -48,7 +48,7 @@ $(function() {
                 delete map;
 
                 $.extend({
-                    cm: new style_manager()
+                    sm: new style_manager()
                 });
             }
         }
@@ -75,7 +75,6 @@ $(function() {
                     set_import(file_name, rules, media, style_num);
                     break;
                 case 4:
-
                     var dig_key = (rules[style_num]['rules'] != undefined) ? 'rules' : 'cssRules';
                     set_rules(file_name, rules[style_num][dig_key], styleSheetsNum, true);
                     break;

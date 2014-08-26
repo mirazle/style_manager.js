@@ -22,13 +22,13 @@ You can solve the 'double definition of style' in  javascript and css.
 </head>
 ```
 # ○ Usage
-## $.cm
+## $.sm
 See all the css properties.  
 
 ###Example1
 ```javascript
 
-$.cm
+$.sm
 
 >Object {
 
@@ -101,15 +101,15 @@ And attach new css property in this structure.
 ###Example1
 ```javascript
 
-.cm['app']['all']['#plus']   = {background-color: 'rgba( 100, 100, 100, 0.65 )'};
+$.sm['app']['all']['#plus']   = {background-color: 'rgba( 100, 100, 100, 0.65 )'};
 
 ```
 ###Example2
 ```javascript
 
-.cm['js_define']        =   {};
-.cm['js_define']['all'] =   {body:          {position: 'fixed', font-size: '12px'}}
-.cm['js_define']['all'] =   {#main_stage:   {display: 'block', background-color: 'rgba( 10, 10, 10, 1 )'},
+$.sm['js_define']        =   {};
+$.sm['js_define']['all'] =   {body:          {position: 'fixed', font-size: '12px'}}
+$.sm['js_define']['all'] =   {#main_stage:   {display: 'block', background-color: 'rgba( 10, 10, 10, 1 )'},
                             .sub_stage:     {display: 'none', background-color: 'rgba( 0, 0, 0, 0 )'}}
 
 ```

@@ -20,13 +20,6 @@ You can solve the 'double definition of style' in  javascript and css.
         td.aka {font-size: 120%; color:#ff0000; font-weight:bold;}
     </style>
 
-    <style type="text/css">
-        a {text-decoration: none }
-        a:link {color: #0000ff }
-        a:visited {color: #800080 }
-        a:hover {color: #ff0000; text-decoration: underline; background-color: #ffcc00 }
-        a:active {color: #0000ff }
-    </style>
 </head>
 ```
 # ○ Usage
@@ -99,9 +92,7 @@ $.cm
             td.aka Object
                 font-size: "120%"
                 color: "#ff0000"
-                font-weight: "bold"
-    _style2: Object
-                                                    .    
+                font-weight: "bold"                                                    .    
                                                     .   
     
 ```

@@ -19,7 +19,6 @@ You can solve the 'double definition of style' in  javascript and css.
         td {font-size: 80%;}
         td.aka {font-size: 120%; color:#ff0000; font-weight:bold;}
     </style>
-
 </head>
 ```
 # ○ Usage

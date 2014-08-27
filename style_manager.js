@@ -1,9 +1,15 @@
 $(function() {
 
-    var map = {};
-
     // Define Base Function
-    var style_manager = new Function;
+    var style_manager	= new Function;
+    
+    // Save all css property
+    var map		= {};
+
+    // Extend Protptype Base Plugin
+    $.extend( style_manager.prototype, map );
+
+    $.extend({ 'sm': new style_manager()});
 
     $(window).load(function() {
 
@@ -16,15 +22,8 @@ $(function() {
             set_rules(rules, styleSheetsNum);
 
             if (styleSheetsNum == document.styleSheets.length - 1) {
-
-                // Extend Protptype Base Plugin
-                $.extend(style_manager.prototype, map);
-
+		$.extend({ 'sm': map });
                 delete map;
-
-                $.extend({
-                    sm: new style_manager()
-                });
             }
         }
     });

@@ -32,7 +32,7 @@ $.sm
 
 >Object {
 
-    /* All media type list*/
+    /* Media type list*/
     all: Object
     
         body: Object

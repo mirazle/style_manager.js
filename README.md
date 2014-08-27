@@ -69,7 +69,10 @@ $.sm
     /* Media type list*/
     all: Object
     screen and (max-width: 480px): Object
-    
+    screen and (max-width: 659px): Object
+    screen and (max-width: 768px): Object
+    screen, tv: Object
+        
         #plus2: Object
             font-size: "18px"
             left: "-2px"
@@ -84,10 +87,6 @@ $.sm
             overflow-x: "hidden"
             overflow-y: "hidden"
             width: "320px"
-    
-    screen and (max-width: 659px): Object
-    screen and (max-width: 768px): Object
-    screen, tv: Object
                                                 .   
                                                 .   
 ```

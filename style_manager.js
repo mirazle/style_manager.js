@@ -5,25 +5,6 @@ $(function() {
     // Define Base Function
     var style_manager = new Function;
 
-    function get_css_name(styles_num) {
-
-        if (document.styleSheets[styles_num]['ownerNode']['dataset']['href'] != undefined) {
-
-            var href_array = document.styleSheets[styles_num]['ownerNode']['dataset']['href'].split('/');
-
-            for (var href_array_num = 0; href_array_num < href_array.length; href_array_num++) {
-
-                if (href_array[href_array_num].indexOf('.css') >= 0) {
-                    var file_names = href_array[href_array_num].split('.css');
-                    return file_names[0].replace('.', '_');
-                    break;
-                }
-            }
-        } else {
-            return '_style' + inner_css_no++;
-        }
-    }
-
     $(window).load(function() {
 
         for (var styleSheetsNum = 0; styleSheetsNum < document.styleSheets.length; styleSheetsNum++) {

@@ -9,15 +9,11 @@ You can solve the 'double definition of style' in  javascript and css.
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/app.css" />
     <link rel="stylesheet" type="text/css" href="css/jQuery.example.css" />
-    
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
     <style type="text/css">
-        body {font-size: 14px;}
-        p {font-size: 14px;}
-        div {font-size: 14px;}
-        td {font-size: 80%;}
-        td.aka {font-size: 120%; color:#ff0000; font-weight:bold;}
+                                                .   
+                                                .   
     </style>
 </head>
 ```
@@ -31,41 +27,45 @@ All css properties is in one structure.
 $.sm
 
 >Object {
-    /* Selector and properties */
-    #plus: Object
-        font-size: "18px"
-        left: "-2px"
-        position: "relative"
-        vertical-align: "super"
-    .viewport: Object
-        -webkit-transform: "translateZ(0px)"
-        margin-bottom: "0px"
-        margin-left: "auto"
-        margin-right: "auto"
-        margin-top: "0px"
-        overflow-x: "hidden"
-        overflow-y: "hidden"
-        width: "320px"
-    @-webkit-keyframes: Object
-        blink: Object
-            0%: Object
-                opacity: "0"
-            100%: Object
-        blink2: Object
-    @font-face: Array[2]
-        0: Object
-            font-family: "sample1"
-            src: "url(http://example.com/css/sample1.ttf), local(sample1.ttf)"
-        1: Object
-    @import: Array[1]
-        0: "url("http://example.com/css/sample.css") handheld, tv;"
-        length: 1
-    @page: Object
-        margin-bottom: "3px"
-        margin-left: "3px"
-        margin-right: "3px"
-        margin-top: "3px"
-        
+
+    /* Media type list*/
+    all: Object
+
+        /* Selector and properties */
+        #plus: Object
+            font-size: "18px"
+            left: "-2px"
+            position: "relative"
+            vertical-align: "super"
+        .viewport: Object
+            -webkit-transform: "translateZ(0px)"
+            margin-bottom: "0px"
+            margin-left: "auto"
+            margin-right: "auto"
+            margin-top: "0px"
+            overflow-x: "hidden"
+            overflow-y: "hidden"
+            width: "320px"
+        @-webkit-keyframes: Object
+            blink: Object
+                0%: Object
+                    opacity: "0"
+                100%: Object
+            blink2: Object
+        @font-face: Array[2]
+            0: Object
+                font-family: "sample1"
+                src: "url(http://example.com/css/sample1.ttf), local(sample1.ttf)"
+            1: Object
+        @import: Array[1]
+            0: "url("http://example.com/css/sample.css") handheld, tv;"
+            length: 1
+        @page: Object
+            margin-bottom: "3px"
+            margin-left: "3px"
+            margin-right: "3px"
+            margin-top: "3px"
+            
     /* Media type list*/
     screen and (max-width: 480px): Object
     screen and (max-width: 659px): Object

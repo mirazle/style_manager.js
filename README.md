@@ -77,15 +77,6 @@ $.sm
             left: "-2px"
             position: "relative"
             vertical-align: "super"
-        .viewport2: Object
-            -webkit-transform: "translateZ(0px)"
-            margin-bottom: "0px"
-            margin-left: "auto"
-            margin-right: "auto"
-            margin-top: "0px"
-            overflow-x: "hidden"
-            overflow-y: "hidden"
-            width: "320px"
                                                 .   
                                                 .   
 ```

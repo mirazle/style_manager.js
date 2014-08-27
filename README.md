@@ -32,20 +32,11 @@ $.sm
     all: Object
 
         /* Selector and properties */
-        #plus: Object
+        #element: Object
             font-size: "18px"
             left: "-2px"
             position: "relative"
             vertical-align: "super"
-        .viewport: Object
-            -webkit-transform: "translateZ(0px)"
-            margin-bottom: "0px"
-            margin-left: "auto"
-            margin-right: "auto"
-            margin-top: "0px"
-            overflow-x: "hidden"
-            overflow-y: "hidden"
-            width: "320px"
         @-webkit-keyframes: Object
             blink: Object
                 0%: Object
@@ -72,11 +63,9 @@ $.sm
     screen and (max-width: 768px): Object
     screen, tv: Object
         
-        #plus2: Object
-            font-size: "18px"
-            left: "-2px"
-            position: "relative"
-            vertical-align: "super"
+        #element: Object
+            font-size: "28px"
+            left: "-20px"
                                                 .   
                                                 .   
 ```

@@ -23,7 +23,7 @@ You can solve the 'double definition of style' in  javascript and css.
 ```
 # ○ Usage
 ## $.sm
-See all the css properties in one structure.  
+See all the css properties in a structure.  
 
 ###Example1
 ```javascript

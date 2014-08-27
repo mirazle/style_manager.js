@@ -67,7 +67,6 @@ $.sm
         margin-top: "3px"
         
     /* Media type list*/
-    all: Object
     screen and (max-width: 480px): Object
     screen and (max-width: 659px): Object
     screen and (max-width: 768px): Object

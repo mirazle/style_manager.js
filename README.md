@@ -68,26 +68,6 @@ $.sm
                                                 .   
 ```
 
-And attach new css property in this structure.  
-
-###Example1
-```javascript
-
-$.sm['all']['#plus']   = {background-color: 'rgba( 100, 100, 100, 0.65 )'};
-
-```
-###Example2
-```javascript
-
-$.sm['js_define'] =  {};
-$.sm['js_define'] =  {body: function(){ 
-                                return {position: 'fixed', font-size: '12px'}
-                            }}
-$.sm['js_define'] =  {#main_stage:   {display: 'block', background-color: 'rgba( 10, 10, 10, 1 )'},
-                     .sub_stage:     {display: 'none', background-color: 'rgba( 0, 0, 0, 0 )'}}
-
-```
-
 # ○ License
 
 MIT License Copyright (C) 2014 mirazle
